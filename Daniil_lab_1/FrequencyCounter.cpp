@@ -50,7 +50,7 @@ void FrequencyCounter::FillWordsFromFile(const std::string& string_path) {
 bool FrequencyCounter::IsRussianWord(const std::string& word) const noexcept {
 	
 	auto letter_checker = [](const char letter) {
-		return ((int)(letter) == -88 || (int)(letter) == -62)// для букв ё в разных регистрах
+		return ((int)(letter) == -88 || (int)(letter) == -72)// для букв ё в разных регистрах
 			|| ((int)(letter) >= -64 && (int)(letter) <= -1);// для остальных
 	};
 

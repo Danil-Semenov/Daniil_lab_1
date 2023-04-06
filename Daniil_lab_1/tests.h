@@ -40,6 +40,7 @@ void RunTests() {
 	CheckCorrectFile("..\\tests\\0.1.txt", 0.1);
 	CheckCorrectFile("..\\tests\\0.txt", 0.0);
 	CheckCorrectFile("..\\tests\\1.txt", 1);
+	CheckCorrectFile("..\\tests\\alphabet.txt", 1);
 
 	CheckIncorrectFile("..\\tests\\empty.txt");
 	CheckIncorrectFile("..\\tests\\not_existing.txt");

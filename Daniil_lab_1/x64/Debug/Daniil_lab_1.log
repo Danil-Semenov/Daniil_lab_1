@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\other cd\study\Daniil_labs\Daniil_lab_1\Daniil_lab_1\tests.h(17,30): warning C4101: exc: неиспользованная локальная переменная
+C:\other cd\study\Daniil_labs\Daniil_lab_1\Daniil_lab_1\tests.h(29,31): warning C4101: exc: неиспользованная локальная переменная
+  Daniil_lab_1.vcxproj -> C:\other cd\study\Daniil_labs\Daniil_lab_1\x64\Debug\Daniil_lab_1.exe
